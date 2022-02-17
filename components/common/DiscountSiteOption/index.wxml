@@ -1,0 +1,38 @@
+<view class="card">
+    <view class="title-container">
+        <view class="title">
+          限时抢
+        </view>
+        <view class="countdown">
+          距结束 01:36:46
+        </view>
+    </view>
+    <view class="good-container">
+        <view class="good-item">
+            <view class="img-container">
+                <view class="discount">2.5 折</view>
+                <image src="../../img/index/purchase/purchase1.jpg" mode="aspectFill"></image>
+            </view>
+        <view class="desc">超值三人餐</view>
+        <view class="price-container">
+            <view class="price">
+                ￥136.5
+            </view>
+            <view class="prev-price">
+                ￥254
+            </view>
+        </view>
+    </view>
+    <view class="good-item">
+        <view class="img-container">
+            <view class="discount">直降 158 元</view>
+                <image src="../../img/index/purchase/purchase2.jpg" mode="aspectFill"></image>
+            </view>
+            <view class="desc">优选二人餐</view>
+            <view class="price-container">
+                <view class="price">￥136.5</view>
+                <view class="prev-price">￥128</view>
+            </view>
+        </view>
+    </view>
+</view>

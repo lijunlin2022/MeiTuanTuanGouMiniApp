@@ -1,0 +1,219 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper indicator-dots="{{true}}" indicator-active-color="#fabd03" class="option-swiper">
+    <swiper-item class="option-swiper-item">
+      <top-site-option
+        wx:for="{{iconArr1}}"
+        wx:key="iconPath"
+        iconPath="{{item.iconPath}}"
+        text="{{item.text}}"
+      />
+    </swiper-item>
+    <swiper-item class="option-swiper-item">
+      <top-site-option
+        wx:for="{{iconArr2}}"
+        wx:key="iconPath"
+        iconPath="{{item.iconPath}}"
+        text="{{item.text}}"
+      />
+    </swiper-item>
+    <swiper-item class="option-swiper-item">
+      <top-site-option
+        wx:for="{{iconArr3}}"
+        wx:key="iconPath"
+        iconPath="{{item.iconPath}}"
+        text="{{item.text}}"
+      />
+    </swiper-item>
+  </swiper>
+  <view class="choice-container">
+    <recommonded-site-option
+      wx:for="{{iconArr4}}"
+      wx:key="iconPath"
+      iconPath="{{item.iconPath}}"
+      text="{{item.text}}"
+    />
+  </view>
+  <view class="purchase-container">
+    <view class="purchase-card">
+      <view class="title-container">
+        <view class="title">
+          限时抢
+        </view>
+        <view class="countdown">
+          距结束 01:36:46
+        </view>
+      </view>
+      <view class="food-container">
+      <view class="food-item">
+        <view class="img-container">
+          <view class="discount">2.5 折</view>
+          <image src="../../img/index/purchase/purchase1.jpg" mode="aspectFill"></image>
+        </view>
+        <view class="desc">超值三人餐</view>
+        <view class="price-container">
+          <view class="price">
+            ￥136.5
+          </view>
+          <view class="prev-price">
+            ￥254
+          </view>
+        </view>
+      </view>
+      <view class="food-item">
+        <view class="img-container">
+          <view class="discount">直降 158 元</view>
+          <image src="../../img/index/purchase/purchase2.jpg" mode="aspectFill"></image>
+        </view>
+        <view class="desc">优选二人餐</view>
+        <view class="price-container">
+          <view class="price">￥136.5</view>
+          <view class="prev-price">￥128</view>
+        </view>
+      </view>
+      </view>
+    </view>
+    <view class="purchase-card">
+      <view class="title-container">
+        <view class="title">
+          1折购
+        </view>
+        <view class="countdown">
+          距结束 01:36:46
+        </view>
+      </view>
+      <view class="food-container">
+        <view class="food-item">
+          <view class="img-container">
+            <view class="discount">3.8 折</view>
+            <image src="../../img/index/purchase/purchase3.jpg" mode="aspectFill"></image>
+          </view>
+          <view class="desc">双人餐</view>
+          <view class="price-container">
+            <view class="price">
+              ￥149
+            </view>
+            <view class="prev-price">
+              ￥395
+            </view>
+          </view>
+        </view>
+        <view class="food-item">
+          <view class="img-container">
+            <view class="discount">1.1折</view>
+            <image src="../../img/index/purchase/purchase4.jpg" mode="aspectFill"></image>
+          </view>
+          <view class="desc">担任红丝绒</view>
+          <view class="price-container">
+            <view class="price">￥0.9</view>
+            <view class="prev-price">￥8</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="tabs">
+    <view class="tab-pane-container">
+      <view class="tab-pane active">
+        巨划算
+      </view>
+      <view class="tab-pane">
+        美团优选
+      </view>
+    </view>
+    <view class="content">
+      <view class="good-container">
+        <view class="img-container">
+          <view class="tag">点外卖</view>
+          <image src="../../img/index/good/good1.jpg" mode="aspectFill"></image>
+        </view>
+        <view class="text-container">
+          <view class="head">
+            <view class="address">
+              谢宝林烤肉拌饭 (上地店)
+            </view>
+            <view class="sales-container">
+              <view class="sales">
+                4.4分 | 月售 3242
+              </view>
+              <view class="time">40分钟送达</view>
+            </view>
+          </view>
+          <view class="foot">
+            <view class="discount">满20减15</view>
+            <view class="btn">马上抢</view>
+          </view>
+        </view>
+      </view>
+      <view class="good-container">
+        <view class="img-container">
+          <view class="tag">点外卖</view>
+          <image src="../../img/index/good/good2.jpg" mode="aspectFill"></image>
+        </view>
+        <view class="text-container">
+          <view class="head">
+            <view class="address">
+              谢宝林烤肉拌饭 (上地店)
+            </view>
+            <view class="sales-container">
+              <view class="sales">
+                4.4分 | 月售 3242
+              </view>
+              <view class="time">40分钟送达</view>
+            </view>
+          </view>
+          <view class="foot">
+            <view class="discount">满20减15</view>
+            <view class="btn">马上抢</view>
+          </view>
+        </view>
+      </view>
+      <view class="good-container">
+        <view class="img-container">
+          <view class="tag">点外卖</view>
+          <image src="../../img/index/good/good3.jpg" mode="aspectFill"></image>
+        </view>
+        <view class="text-container">
+          <view class="head">
+            <view class="address">
+              谢宝林烤肉拌饭 (上地店)
+            </view>
+            <view class="sales-container">
+              <view class="sales">
+                4.4分 | 月售 3242
+              </view>
+              <view class="time">40分钟送达</view>
+            </view>
+          </view>
+          <view class="foot">
+            <view class="discount">满20减15</view>
+            <view class="btn">马上抢</view>
+          </view>
+        </view>
+      </view>
+      <view class="good-container">
+        <view class="img-container">
+          <view class="tag">点外卖</view>
+          <image src="../../img/index/good/good4.jpg" mode="aspectFill"></image>
+        </view>
+        <view class="text-container">
+          <view class="head">
+            <view class="address">
+              谢宝林烤肉拌饭 (上地店)
+            </view>
+            <view class="sales-container">
+              <view class="sales">
+                4.4分 | 月售 3242
+              </view>
+              <view class="time">40分钟送达</view>
+            </view>
+          </view>
+          <view class="foot">
+            <view class="discount">满20减15</view>
+            <view class="btn">马上抢</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

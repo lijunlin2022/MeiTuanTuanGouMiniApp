@@ -1,0 +1,255 @@
+ /**index.wxss**/
+
+ /* option */
+.option-swiper {
+    height: 460rpx;
+    background-color: #fff;
+}
+
+.option-swiper .option-swiper-item {
+    height: 360rpx;
+    padding: 50rpx 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.option-swiper .option-swiper-item .option {
+    height: 100rpx;
+    margin: 10rpx 0;
+    width: 150rpx;
+    text-align: center;
+}
+
+.option-swiper .option-swiper-item .option image {
+    height: 70rpx;
+    width: 70rpx;
+}
+
+.option-swiper .option-swiper-item .option text {
+    height: 30rpx;
+    display: block;
+    font-size: 24rpx;
+}
+
+/* choice */
+.choice-container {
+    height: 190rpx;
+    margin: 20rpx 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    border-radius: 10rpx;
+    background-color: #fff;
+}
+
+.choice-container .choice {
+  position: relative;
+  height: 110rpx;
+  padding: 40rpx 0;
+  width: 150rpx;
+  text-align: center;
+}
+
+.choice-container .choice .tag {
+  position: absolute;
+  right: 0;
+  height: 30rpx;
+  width: 90rpx;
+  border-radius: 15rpx;
+  background-color: #f55f5f;
+  color: #fff;
+  font-size: 20rpx;
+}
+
+.choice-container .choice image {
+    height: 80rpx;
+    width: 80rpx;
+}
+
+.choice-container .choice text {
+    height: 30rpx;
+    display: block;
+    font-size: 28rpx;
+    color: #f6621c;
+    font-weight: 400;
+}
+
+/* purchase */
+.purchase-container {
+    display: flex;
+    background-color: #fff;
+    margin: 20rpx 0;
+}
+
+.purchase-container .purchase-card {
+    width: 375rpx;
+}
+
+.purchase-container .purchase-card .title-container {
+    width: 100%;
+    display: flex;
+    height: 60rpx;
+    padding: 15rpx;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.purchase-container .purchase-card .title-container .title {
+    font-size: 30rpx;
+    font-weight: bold;
+}
+
+.purchase-container .purchase-card .title-container .countdown {
+    padding: 0 20rpx;
+    font-size: 24rpx;
+    border: 1rpx solid #f0f0f0;
+    border-radius: 10rpx;
+}
+
+.purchase-container .purchase-card .food-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.purchase-container .purchase-card .food-container .food-item {
+    width: 155rpx;
+    margin: 0 10rpx;
+}
+
+.purchase-container .purchase-card .food-container .food-item .img-container {
+    position: relative;
+    width: 100%;
+    height: 100rpx;
+}
+
+.purchase-container .purchase-card .food-container .food-item .img-container .discount {
+    position: absolute;
+    bottom: 10rpx;
+    left: 10rpx;
+    padding: 5rpx 10rpx;
+    background-color: #f55f5f;
+    color: #fff;
+    font-size: 20rpx;
+}
+
+.purchase-container .purchase-card .food-container .food-item .desc {
+    font-size: 24rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+}
+
+.purchase-container .purchase-card .food-container .food-item .price-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.purchase-container .purchase-card .food-container .food-item .price-container .price {
+    color: #f6621c;
+    font-size: 26rpx;
+}
+
+.purchase-container .purchase-card .food-container .food-item .price-container .prev-price {
+    color: #777;
+    font-size: 20rpx;
+    text-decoration: line-through;
+}
+
+.purchase-container .purchase-card image {
+    width: 155rpx;
+    height: 100rpx;
+    border-radius: 10rpx;
+}
+
+/** tabs **/
+.tabs .tab-pane-container {
+    display: flex;
+    justify-content: space-around;
+    height: 40rpx;
+}
+
+.tabs .tab-pane-container  .tab-pane {
+    font-size: 32rpx;
+}
+
+.tabs .tab-pane-container .active {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #fabd03;
+    text-decoration-skip: 10rpx;
+}
+
+.tabs .content {
+    margin: 10rpx;
+    height: 270rpx;
+}
+
+.tabs .content .good-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 25rpx 0;
+}
+
+.tabs  .content .good-container .img-container {
+    position: relative;
+    width: 350rpx;
+}
+
+.tabs  .content .good-container .img-container .tag {
+    position: absolute;
+    padding: 5rpx 10rpx;
+    border-radius: 5rpx;
+    background-color: #fabd03;
+    top: 10rpx;
+    left: 10rpx;
+    font-size: 24rpx;
+}
+
+.tabs .content .good-container .img-container image {
+    width: 350rpx;
+    height: 270rpx;
+    border-radius: 10rpx; 
+}
+
+.tabs  .content .good-container .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 380rpx;
+    padding: 10rpx 20rpx;
+}
+
+.tabs  .content .good-container .text-container .address {
+    font-size: 28rpx;
+}
+
+.tabs  .content .good-container .text-container .head .sales-container {
+    display: flex;
+    justify-content: space-between;
+    height: 30rpx;
+    margin: 5rpx 0;
+    font-size: 24rpx;
+    color: #777;
+}
+
+.tabs  .content .good-container .text-container .foot {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.tabs  .content .good-container .text-container .foot .discount {
+    font-size: 32rpx;
+    font-weight: bold;
+    color: #ff5f02;
+}
+
+.tabs  .content .good-container .text-container .foot .btn {
+    padding: 10rpx 35rpx;
+    background-color: #ff5f02;
+    color: #fff;
+    font-size: 24rpx;
+    border-radius: 10rpx;
+}

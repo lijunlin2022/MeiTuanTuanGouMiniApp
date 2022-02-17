@@ -1,0 +1,44 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/classification/index",
+        "pages/money/index",
+        "pages/mine/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fabd03",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "img/index.png",
+                "selectedIconPath": "img/selectedIndex.png"
+            },
+            {
+                "pagePath": "pages/classification/index",
+                "text": "分类",
+                "iconPath": "img/classification.png",
+                "selectedIconPath": "img/selectedClassfication.png"
+            },
+            {
+                "pagePath": "pages/money/index",
+                "text": "赚钱",
+                "iconPath": "img/money.png",
+                "selectedIconPath": "img/selectedMoney.png"
+            },
+            {
+                "pagePath": "pages/mine/index",
+                "text": "我的",
+                "iconPath": "img/mine.png",
+                "selectedIconPath": "img/selectedMine.png"
+            }
+        ],
+        "selectedColor": "#000000"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

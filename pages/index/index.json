@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "top-site-option": "/components/common/TopSiteOption",
+    "recommonded-site-option": "/components/common/RecommondedSiteOption",
+    "discount-site-option": "/components/common/DiscountSiteOption"
+  }
+}

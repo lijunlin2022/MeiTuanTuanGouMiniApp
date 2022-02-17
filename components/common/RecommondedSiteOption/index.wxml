@@ -1,0 +1,5 @@
+<view class="option">
+    <view class="tag">{{tag}}</view>
+    <image src="{{iconPath}}" mode="aspectFit"></image>
+    <text>{{text}}</text>
+</view>

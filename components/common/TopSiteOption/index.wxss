@@ -1,0 +1,17 @@
+.option {
+    height: 100rpx;
+    margin: 10rpx 0;
+    width: 150rpx;
+    text-align: center;
+}
+
+.option image {
+    height: 70rpx;
+    width: 70rpx;
+}
+
+.option text {
+    height: 30rpx;
+    display: block;
+    font-size: 24rpx;
+}

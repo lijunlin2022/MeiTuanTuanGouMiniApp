@@ -1,0 +1,4 @@
+<view class="option">
+    <image src="{{iconPath}}" mode="aspectFit"></image>
+    <text>{{text}}</text>
+</view>

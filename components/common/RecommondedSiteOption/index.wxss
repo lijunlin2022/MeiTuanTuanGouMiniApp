@@ -1,0 +1,31 @@
+.option {
+    position: relative;
+    height: 110rpx;
+    padding: 40rpx 0;
+    width: 150rpx;
+    text-align: center;
+}
+
+.option .tag {
+    position: absolute;
+    right: 0;
+    height: 30rpx;
+    width: 90rpx;
+    border-radius: 15rpx;
+    background-color: #f55f5f;
+    color: #fff;
+    font-size: 20rpx;
+}
+
+.option image {
+    height: 80rpx;
+    width: 80rpx;
+}
+
+.option text {
+    height: 30rpx;
+    display: block;
+    font-size: 28rpx;
+    color: #f6621c;
+    font-weight: 400;
+}
