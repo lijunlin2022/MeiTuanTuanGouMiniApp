@@ -1,0 +1,69 @@
+.pane {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 25rpx 0;
+}
+
+.pane .img-container {
+  position: relative;
+  width: 300rpx;
+}
+
+.pane .img-container .tag {
+  position: absolute;
+  padding: 5rpx 10rpx;
+  background-color: #fabd03;
+  top: 10rpx;
+  left: 10rpx;
+  font-size: 24rpx;
+}
+
+.pane .img-container image {
+  width: 290rpx;
+  height: 250rpx;
+  border-radius: 10rpx;
+}
+
+.pane .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 410rpx;
+  padding: 10rpx 20rpx;
+}
+
+.pane .text-container .head .address {
+  font-size: 28rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+}
+
+.pane .text-container .head .sales-container {
+  display: flex;
+  justify-content: space-between;
+  height: 30rpx;
+  margin: 10rpx;
+  font-size: 24rpx;
+  color: #777;
+}
+
+.pane .text-container .foot {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.pane .text-container .foot .discount {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #ff5f02;
+}
+
+.pane .text-container .foot .btn {
+  padding: 10rpx 35rpx;
+  background-color: #ff5f02;
+  color: #fff;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+}

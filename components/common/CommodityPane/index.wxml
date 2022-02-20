@@ -1,0 +1,19 @@
+<view class="pane">
+  <view class="img-container">
+    <view class="tag">{{tag}}</view>
+    <image src="{{iconPath}}" mode="aspectFill"></image>
+  </view>
+  <view class="text-container">
+    <view class="head">
+      <view class="address">{{address}}</view>
+      <view class="sales-container">
+        <view class="sales">{{sales}}</view>
+        <view class="time">{{time}}</view>
+      </view>
+    </view>
+    <view class="foot">
+      <view class="discount">{{discount}}</view>
+      <view class="btn">{{action}}</view>
+    </view>
+  </view>
+</view>
