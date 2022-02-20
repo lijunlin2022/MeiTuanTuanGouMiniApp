@@ -1,3 +1,53 @@
 <view class="container">
-  分类
+  <view class="sidebar">
+    <view
+      class="sidebar-item"
+      wx:for="{{sidebarArr}}"
+      wx:key="item"
+    >
+      {{item}}
+    </view>
+  </view>
+  <view class="content">
+    <view class="title">外卖外送</view>
+    <view class="option-container">
+      <top-site-option
+        wx:for="{{iconArr1}}"
+        wx:key="iconPath"
+        iconPath="{{item.iconPath}}"
+        text="{{item.text}}"
+      />
+    </view>
+    <view class="recommand-title">
+      精选推荐
+    </view>
+    <commodity-pane
+      address="俏舅妈 · 大碗猪脚饭 · 猪脚面（六道口店）"
+      sales="4.5 分 | 月售 3206"
+      time="50分钟"
+      discount="22减11"
+      iconPath="/img/index/good/good1.jpg"
+    ></commodity-pane>
+    <commodity-pane
+      address="俏舅妈 · 大碗猪脚饭 · 猪脚面（六道口店）"
+      sales="4.5 分 | 月售 3206"
+      time="50分钟"
+      discount="22减11"
+      iconPath="/img/index/good/good2.jpg"
+    ></commodity-pane>
+    <commodity-pane
+      address="俏舅妈 · 大碗猪脚饭 · 猪脚面（六道口店）"
+      sales="4.5 分 | 月售 3206"
+      time="50分钟"
+      discount="22减11"
+      iconPath="/img/index/good/good3.jpg"
+    ></commodity-pane>
+    <commodity-pane
+      address="俏舅妈 · 大碗猪脚饭 · 猪脚面（六道口店）"
+      sales="4.5 分 | 月售 3206"
+      time="50分钟"
+      discount="22减11"
+      iconPath="/img/index/good/good4.jpg"
+    ></commodity-pane>
+  </view>
 </view>

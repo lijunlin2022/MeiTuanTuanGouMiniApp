@@ -1,6 +1,6 @@
 <view class="pane">
   <view class="img-container">
-    <view class="tag">{{tag}}</view>
+    <view class="tag" wx:if="{{tag}}">{{tag}}</view>
     <image src="{{iconPath}}" mode="aspectFill"></image>
   </view>
   <view class="text-container">
@@ -13,7 +13,7 @@
     </view>
     <view class="foot">
       <view class="discount">{{discount}}</view>
-      <view class="btn">{{action}}</view>
+      <view class="btn" wx:if="{{action}}">{{action}}</view>
     </view>
   </view>
 </view>

@@ -1,18 +1,9 @@
 Component({
     properties: {
-      discount: {
-        type: String
-      },
       iconPath: {
         type: String
       },
-      desc: {
-        type: String
-      },
-      price: {
-        type: String
-      },
-      prevPrice: {
+      text: {
         type: String
       }
     }

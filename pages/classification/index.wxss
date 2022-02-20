@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .sidebar {
+  position: fixed;
+  width: 200rpx;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container .sidebar .sidebar-item {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.container .content {
+  margin-left: 200rpx;
+  width: 510rpx;
+  padding: 0 20rpx;
+  background-color: #fff;
+}
+
+.container .content .title {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+}
+
+.container .content .option-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 30rpx;
+}
+
+.container .content .recommand-title {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+}

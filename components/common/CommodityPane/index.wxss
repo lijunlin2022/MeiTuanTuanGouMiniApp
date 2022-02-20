@@ -3,11 +3,13 @@
   justify-content: space-between;
   background-color: #fff;
   margin: 25rpx 0;
+  width: 100%;
+  aspect-ratio: 3/1;
 }
 
 .pane .img-container {
   position: relative;
-  width: 300rpx;
+  width: 40%;
 }
 
 .pane .img-container .tag {
@@ -20,8 +22,8 @@
 }
 
 .pane .img-container image {
-  width: 290rpx;
-  height: 250rpx;
+  width: 100%;
+  height: 100%;
   border-radius: 10rpx;
 }
 
@@ -29,14 +31,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 410rpx;
+  width: 60%;
   padding: 10rpx 20rpx;
 }
 
 .pane .text-container .head .address {
-  font-size: 28rpx;
-  height: 30rpx;
-  line-height: 30rpx;
+  font-size: 24rpx;
 }
 
 .pane .text-container .head .sales-container {
@@ -44,7 +44,7 @@
   justify-content: space-between;
   height: 30rpx;
   margin: 10rpx;
-  font-size: 24rpx;
+  font-size: 20rpx;
   color: #777;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .pane .text-container .foot .discount {
-  font-size: 32rpx;
+  font-size: 28rpx;
   font-weight: bold;
   color: #ff5f02;
 }

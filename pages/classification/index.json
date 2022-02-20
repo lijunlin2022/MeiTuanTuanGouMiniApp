@@ -1,3 +1,6 @@
 {
-    
+  "usingComponents": {
+    "top-site-option": "/components/common/TopSiteOption",
+    "commodity-pane": "/components/common/CommodityPane"
+  }
 }
