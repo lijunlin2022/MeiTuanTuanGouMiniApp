@@ -3,9 +3,13 @@
 
 ## 目前进度
 
-- 搭建首页的样式，封装了两个组件：
-  - TopSiteOption，即顶部的`外卖`，`美食`等选项卡
-  - RecommendedSiteOption，即推荐位置的标有`新人卡`的选项卡
+- 搭建首页的样式，封装了五个组件：
+  - TopSiteOption
+  - RecommendedSiteOption
+  - DiscountSiteContainer
+  - DiscountSiteOption
+  - CommodityPane
+- 搭建分类的样式，复用了之前的组件
 
 ## 样式截图
 
@@ -17,3 +21,6 @@
 
 ![](./README/index2.png)
 
+- 分类页的截图
+  
+![](./README/classficiation1.png)
