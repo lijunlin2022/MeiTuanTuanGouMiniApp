@@ -1,0 +1,18 @@
+<view class="container">
+    <view class="title-container">
+        <view class="title">
+            {{title}}
+        </view>
+        <view class="countdown">
+            {{countdown}}
+        </view>
+    </view>
+    <view class="option-container">
+        <view class="left">
+            <slot name="left"></slot>
+        </view>
+        <view class="right">
+            <slot name="right"></slot>
+        </view>
+    </view>
+</view>

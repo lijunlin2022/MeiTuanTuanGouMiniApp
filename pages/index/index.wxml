@@ -35,82 +35,51 @@
     />
   </view>
   <view class="purchase-container">
-    <view class="purchase-card">
-      <view class="title-container">
-        <view class="title">
-          限时抢
-        </view>
-        <view class="countdown">
-          距结束 01:36:46
-        </view>
-      </view>
-      <view class="food-container">
-      <view class="food-item">
-        <view class="img-container">
-          <view class="discount">2.5 折</view>
-          <image src="../../img/index/purchase/purchase1.jpg" mode="aspectFill"></image>
-        </view>
-        <view class="desc">超值三人餐</view>
-        <view class="price-container">
-          <view class="price">
-            ￥136.5
-          </view>
-          <view class="prev-price">
-            ￥254
-          </view>
-        </view>
-      </view>
-      <view class="food-item">
-        <view class="img-container">
-          <view class="discount">直降 158 元</view>
-          <image src="../../img/index/purchase/purchase2.jpg" mode="aspectFill"></image>
-        </view>
-        <view class="desc">优选二人餐</view>
-        <view class="price-container">
-          <view class="price">￥136.5</view>
-          <view class="prev-price">￥128</view>
-        </view>
-      </view>
-      </view>
-    </view>
-    <view class="purchase-card">
-      <view class="title-container">
-        <view class="title">
-          1折购
-        </view>
-        <view class="countdown">
-          距结束 01:36:46
-        </view>
-      </view>
-      <view class="food-container">
-        <view class="food-item">
-          <view class="img-container">
-            <view class="discount">3.8 折</view>
-            <image src="../../img/index/purchase/purchase3.jpg" mode="aspectFill"></image>
-          </view>
-          <view class="desc">双人餐</view>
-          <view class="price-container">
-            <view class="price">
-              ￥149
-            </view>
-            <view class="prev-price">
-              ￥395
-            </view>
-          </view>
-        </view>
-        <view class="food-item">
-          <view class="img-container">
-            <view class="discount">1.1折</view>
-            <image src="../../img/index/purchase/purchase4.jpg" mode="aspectFill"></image>
-          </view>
-          <view class="desc">担任红丝绒</view>
-          <view class="price-container">
-            <view class="price">￥0.9</view>
-            <view class="prev-price">￥8</view>
-          </view>
-        </view>
-      </view>
-    </view>
+    <discount-site-container
+      title="限时抢"
+      countdown="距结束 01:36:46"
+    >
+      <discount-site-option
+        slot="left"
+        discount="2.5 折"
+        desc="超值三人餐"
+        price="￥136.5"
+        prevPrice="￥264"
+        iconPath="/img/index/purchase/purchase1.jpg"
+      >
+      </discount-site-option>
+      <discount-site-option
+        slot="right"
+        discount="直降 158 元"
+        desc="优选二人餐"
+        price="￥110.5"
+        prevPrice="￥150"
+        iconPath="/img/index/purchase/purchase2.jpg"
+      ></discount-site-option>
+    </discount-site-container>
+    <discount-site-container
+      title="1折购"
+      countdown="距结束 01:36:46"
+    >
+      <discount-site-option
+        slot="left"
+        discount="2.5 折"
+        desc="双人餐"
+        price="￥136.5"
+        prevPrice="￥264"
+        iconPath="/img/index/purchase/purchase3.jpg"
+      >
+      </discount-site-option>
+      <discount-site-option
+        slot="right"
+        discount="2.5 折"
+        desc="第二杯半价"
+        price="￥136.5"
+        prevPrice="￥264"
+        iconPath="/img/index/purchase/purchase4.jpg"
+      >
+      </discount-site-option>
+    </discount-site-container>
   </view>
   <view class="tabs">
     <view class="tab-pane-container">

@@ -1,0 +1,40 @@
+.container {
+    width: 355rpx;
+    padding: 10rpx;
+    margin: 20rpx 0;
+    background-color: #fff;
+}
+
+.container .title-container {
+    height: 60rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .title-container .title {
+    font-size: 30rpx;
+    font-weight: bold;
+}
+
+.container .title-container .countdown {
+    padding: 0 20rpx;
+    font-size: 24rpx;
+    border: 1rpx solid #e0e0e0;
+    border-radius: 10rpx;
+}
+
+.container .option-container {
+    height: 160rpx;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .option-container .left {
+    width: 50%;
+}
+
+.container .option-container .right {
+    width: 50%;
+}
+

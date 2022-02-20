@@ -2,6 +2,7 @@
   "usingComponents": {
     "top-site-option": "/components/common/TopSiteOption",
     "recommonded-site-option": "/components/common/RecommondedSiteOption",
+    "discount-site-container": "/components/common/DiscountSiteContainer",
     "discount-site-option": "/components/common/DiscountSiteOption"
   }
 }
