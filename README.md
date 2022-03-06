@@ -24,3 +24,7 @@
 - 分类页的截图
   
 ![](./README/classficiation1.png)
+
+- 我的页的截图
+
+![](./README/mine1.png)
