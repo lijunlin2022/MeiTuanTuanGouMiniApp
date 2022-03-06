@@ -1,0 +1,145 @@
+.avatar-container {
+  background-color: #fabd03;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.avatar-container .avatar {
+  width: 150rpx;
+  padding: 0 25rpx;
+}
+
+.avatar-container .avatar image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+
+.avatar-container .user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.avatar-container .user-info .username {
+  font-weight: bold;
+}
+
+.avatar-container .user-info .setting {
+  width: 100rpx;
+  padding: 15rpx;
+  border-radius: 50rpx;
+  font-size: 20rpx;
+  background-color: #ebae02;
+  opacity: 0.8;
+}
+
+.option-container {
+  background-color: #fabd03;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.option-container .img-container {
+  width: 150rpx;
+  height: 100rpx;
+  margin: 40rpx 0 100rpx 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.option-container .img-container image {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.option-container .img-container text {
+  font-size: 24rpx;
+  color: #fff;
+}
+
+.money-container {
+  position: relative;
+  top: -60rpx;
+  margin: 0 30rpx -40rpx 30rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.money-container .img-container {
+  width: 150rpx;
+  height: 120rpx;
+  margin: 40rpx 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.money-container .img-container image {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.money-container .img-container text {
+  font-size: 24rpx;
+  color: #000;
+}
+
+.card-container {
+  background-color: #fff;
+  padding: 20rpx;
+  margin: 0 30rpx;
+}
+
+.card-container .title-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80rpx;
+}
+
+.card-container .title-container .title {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+
+.card-container .title-container .enter {
+  font-size: 28rpx;
+  color: #777;
+}
+
+.card-container .data-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container .data-container .data-item {
+  text-align: center;
+}
+
+.card-container .data-container .data-item .count-container {
+  height: 60rpx;
+}
+
+.card-container .data-container .data-item .count-container .count {
+  font-size: 34rpx;
+  font-weight: bold;
+}
+
+.card-container .data-container .data-item .count-container .subscript {
+  font-size: 24rpx;
+}
+
+.card-container .data-container .data-item .desc {
+  height: 50rpx;
+  font-size: 28rpx;
+}
+
+.card-container .data-container .data-item .desc-subscript {
+  font-size: 20rpx;
+  color: #777;
+}

@@ -1,3 +1,91 @@
 <view class="container">
-  我的
+  <view class="avatar-container">
+    <view class="avatar">
+      <image src="/img/mine/avatar.jpg" mode="aspectFit" />
+    </view>
+    <view class="user-info">
+      <h1 class="username">BWY425446266</h1>
+      <view class="setting">账户设置</view>
+    </view>
+  </view>
+  <view class="option-container">
+    <view class="img-container">
+      <image src="/img/mine/star.png" mode="aspectFit" />
+      <text>收藏</text>
+    </view>
+    <view class="img-container">
+      <image src="/img/mine/wechat.png" mode="aspectFit" />
+      <text>关注公众号</text>
+    </view>
+    <view class="img-container">
+      <image src="/img/mine/service.png" mode="aspectFit" />
+      <text>客服</text>
+    </view>
+    <view class="img-container">
+      <image src="/img/mine/card.png" mode="aspectFit" />
+      <text>红包卡片</text>
+    </view>
+  </view>
+  <view class="money-container">
+    <view class="img-container">
+      <image src="/img/mine/order.png" mode="aspectFit" />
+      <text>我的订单</text>
+    </view>
+    <view class="img-container">
+      <image src="/img/mine/money.png" mode="aspectFit" />
+      <text>待付款</text>
+    </view>
+    <view class="img-container">
+      <image src="/img/mine/using.png" mode="aspectFit" />
+      <text>待使用</text>
+    </view>
+    <view class="img-container">
+      <image src="/img/mine/comment.png" mode="aspectFit" />
+      <text>待评价</text>
+    </view>
+    <view class="img-container">
+      <image src="/img/mine/after.png" mode="aspectFit" />
+      <text>红包卡片</text>
+    </view>
+  </view>
+  <view class="card-container">
+    <view class="title-container">
+      <view class="title">我的钱包</view>
+      <view class="enter">进入钱包 ></view>
+    </view>
+    <view class="data-container">
+      <view class="data-item">
+        <view class="count-container">
+          <text class="count">1</text>
+          <text class="subscript">次</text>
+        </view>
+        <view class="desc">测一测</view>
+        <view class="desc-subscript">我的信任分</view>
+      </view>
+            <view class="data-item">
+        <view class="count-container">
+          <text class="count">1</text>
+          <text class="subscript">万</text>
+        </view>
+        <view class="desc">美团借钱</view>
+        <view class="desc-subscript">大约可借</view>
+      </view>
+            <view class="data-item">
+        <view class="count-container">
+          <text class="count">0.00</text>
+          <text class="subscript">元</text>
+        </view>
+        <view class="desc">笔笔返利</view>
+        <view class="desc-subscript">下单可领</view>
+      </view>
+            <view class="data-item">
+        <view class="count-container">
+          <text class="count">28.70</text>
+          <text class="subscript">元</text>
+        </view>
+        <view class="desc">我的账单</view>
+        <view class="desc-subscript">最近支付</view>
+      </view>
+    </view>
+  </view>
 </view>
